@@ -1,0 +1,103 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "majesty words",
+            "intents": [
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OxfordIntent",
+                    "slots": [
+                        {
+                            "name": "Word",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Ask majesty what does {Word} mean",
+                        "please tell me what {Word} means",
+                        "alexa what does {Word} mean",
+                        "get me {Word} meaning",
+                        "pleaset get me {Word} meaning",
+                        "please get me the meaning of {Word}",
+                        "Please tell me the meaning of {Word}",
+                        "tell me the meaning of {Word}",
+                        "meaning of {Word} Alexa",
+                        "meaning of {Word} please Alexa",
+                        "meaning of {Word} please ",
+                        "meaning of {Word}",
+                        "What does {Word} mean",
+                        "What is the meaning of {Word}",
+                        "What is meant by {Word}",
+                        " Tell me the definition of {Word}",
+                        "What is definition of {Word}",
+                        "What is {Word}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
